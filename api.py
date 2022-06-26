@@ -19,7 +19,7 @@ app = FastAPI(
     }, )
 
 
-@app.get("/home")
+@app.get("/")
 def home(name: str):
     return "Welcome Home! " + name
 
